@@ -71,8 +71,8 @@ body {
     width: 98%;
   }
 
-  #frmProposal{
-    padding: 9%;
+  .Proposal{
+    padding: 10%;
   }
 }
 
