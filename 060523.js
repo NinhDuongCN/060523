@@ -41,7 +41,7 @@ function Yes_Clicked(){
     }, 2000);
 }
 
-let q=["Làm vợ anh nhé", "Will you marry me", "你愿意嫁给我吗", "結婚して下さい", "Veux-tu m'épouser", "Ты выйдешь за меня", "Mi vuoi sposare", "나와 결혼 해 줄래", "Wyjdziesz za mnie"];
+let q=["Em đồng ý làm vợ anh nhé!", "Will you marry me?", "你愿意嫁给我吗?", "結婚して下さい?", "Veux-tu m'épouser?", "Ты выйдешь за меня?", "Mi vuoi sposare?", "나와 결혼 해 줄래?", "Wyjdziesz za mnie?"];
 let max = q.length-1;
 
 function No_Clicked(){
