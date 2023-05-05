@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="./060523.css" />
+    <script type="text/javascript" src="./060523.js"></script>
+    <title>NyC</title>
+</head>
+<body>
+    <noscript>Chưa bật javascript rồi</noscript>
+    <section class='login' id='login'>
+        <div class='head'>
+        <h1 class='msg' id="msg">Enter the password to continue</h1>
+        </div>
+        <div class='form' id="formlogin">
+          <form>
+                <input id="password" type="password" placeholder='••••••••••••••' class='password'><br>
+                <a href="#" class='btn-login' id='do-login' onclick="Login_Clicked()">Login</a>
+          </form>
+        </div>
+    </section>
+    <section class="video">
+        <video id="video" autoplay onpause="vidStopped()" hidden controls>
+            <source src="./data/202305052001" type="video/mp4" />
+            trình duyệt không hỗ trợ
+        </video>
+    </section>
+    <section class="Proposal" id="proposal" hidden>
+        <div class='head'>
+            <h1 class='msg' id="msg">Em đồng ý làm vợ anh nhé!</h1>
+        </div>
+        <div class='form' id="frmProposal">
+            <form>
+                <a href="https://NinhDuongCN.github.io/WDCD" class='btn-login' id='Yes' onclick="Yes_Clicked()">Em đồng ý</a>
+                <a href="#" class='btn-login' id='No' onclick="No_Clicked()">Không đấy</a>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
