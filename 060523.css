@@ -66,6 +66,12 @@ body {
     min-width: 25%;
 }
 
+@media screen and (orientation: portrait) {
+  #proposal{
+    width: 98%;
+  }
+}
+
 #frmProposal{
     position: relative;
     align-items: center;
@@ -74,5 +80,5 @@ body {
 
 #frmProposal .btn-login{
     position: relative;
-    margin: 1%;
+    margin: 5px;
 }
