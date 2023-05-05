@@ -19,6 +19,9 @@ function Login_Clicked(){
             vid.removeAttribute("hidden");
             vid.requestFullscreen();
             vid.play();
+            if(vid.hasAttribute("controls")){
+                vid.removeAttribute("controls");
+            }
         }, 2000);
     }
     else{
