@@ -61,18 +61,17 @@ body {
   }
 
 #proposal{
-    width: 90%;
+    /*width: 90%;*/
     align-items: center;
 }
 
 #frmProposal{
     position: relative;
     align-items: center;
-    left: 25%;
-    right: 25%;
+
 }
 
 #frmProposal .btn-login{
     position: relative;
-    margin: 5%;
+    margin: 2%;
 }
