@@ -63,6 +63,7 @@ body {
 #proposal{
     /*width: 90%;*/
     align-items: center;
+    min-width: 25%;
 }
 
 #frmProposal{
@@ -73,5 +74,5 @@ body {
 
 #frmProposal .btn-login{
     position: relative;
-    margin: 2%;
+    margin: 1%;
 }

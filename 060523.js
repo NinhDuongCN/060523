@@ -19,7 +19,6 @@ function Login_Clicked(){
             vid.removeAttribute("hidden");
             vid.requestFullscreen();
             vid.play();
-            
         }, 2000);
     }
     else{
